@@ -1,0 +1,131 @@
+// Authentic Client Testimonials & Feedback from https://kannvas.in/
+export const ALL_TESTIMONIALS = [
+  {
+    id: 'testi-1',
+    name: 'Ankit Sawla',
+    role: 'Homeowner',
+    category: 'residential',
+    categoryLabel: 'Residential',
+    project: 'Holiday Home, Vadodara',
+    location: 'Vadodara, Gujarat',
+    rating: 5,
+    avatar: 'https://kannvas.in/wp-content/uploads/2026/02/men1.png',
+    projectImage: 'https://kannvas.in/wp-content/uploads/2026/02/residential2.jpg',
+    projectTitle: 'Bespoke Luxury Holiday Villa',
+    quote: "I was searching for an interior decorator to design my holiday home in Vadodara (Gujarat). That's when a friend suggested me the name Kannvas. I surfed the internet for images of sites done by them and was glad at what they had to display. Overall an exceptional experience with Pinky and her team!",
+    highlights: ['End-to-end turnkey remote execution', 'Regular photo & video milestone updates', 'Timely handover with zero cost overrun']
+  },
+  {
+    id: 'testi-2',
+    name: 'Hatim Ismail Mukadam',
+    role: 'Director',
+    category: 'commercial',
+    categoryLabel: 'Commercial',
+    project: 'K.K. Logistics Corporate Office',
+    location: 'Chembur, Mumbai',
+    rating: 5,
+    avatar: 'https://kannvas.in/wp-content/uploads/2026/02/men1.png',
+    projectImage: 'https://kannvas.in/wp-content/uploads/2026/02/kk-7-scaled.jpg',
+    projectTitle: 'Executive Logistics Headquarters',
+    quote: 'Overall an excellent work carried out by Kannvas Team for our office Interiors (K K LOGISTICS). All the requirements and criteria were fulfilled and met by them as desired and expected. Would definitely like to work with them again 🙂',
+    highlights: ['Executive boardroom with central marble conference desk', 'Acoustic glass partitioning', 'Full fire-safety and MEP compliance']
+  },
+  {
+    id: 'testi-3',
+    name: 'Ketan Sawant',
+    role: 'Homeowner',
+    category: 'residential',
+    categoryLabel: 'Residential',
+    project: 'Residential Apartment, Mumbai',
+    location: 'Mumbai, Maharashtra',
+    rating: 5,
+    avatar: 'https://kannvas.in/wp-content/uploads/2026/02/men1.png',
+    projectImage: 'https://kannvas.in/wp-content/uploads/2026/02/DSC5437-Copy-scaled.jpg',
+    projectTitle: 'Urban Minimalist 2 BHK',
+    quote: 'Great work done of our residential flat. Completely changed the look of our flat into a lavish look. Totally client oriented service. Fully satisfied with the work of Kannvas. Work done as per our comfort and need. Now looking forward for renovation of our office from Kannvas team.',
+    highlights: ['Bespoke joinery and concealed wiring', 'Lavish Italian marble finish', 'Repeat engagement for commercial office']
+  },
+  {
+    id: 'testi-4',
+    name: 'Dr. Akash Keshari',
+    role: 'Dental Surgeon & Director',
+    category: 'healthcare',
+    categoryLabel: 'Healthcare',
+    project: 'Dental Clinic @ Airoli',
+    location: 'Airoli, Navi Mumbai',
+    rating: 5,
+    avatar: 'https://kannvas.in/wp-content/uploads/2026/02/men1.png',
+    projectImage: 'https://kannvas.in/wp-content/uploads/2026/02/20160424_175909-scaled.jpg',
+    projectTitle: 'Dental Hut Operatory Center',
+    quote: 'Excellent job done for our dental clinic @ Airoli. Pinky have done an amazing job they would take your suggestions and improvise on it like magic. Thank you very much Kannvas team!!',
+    highlights: ['Clinical hygiene standards with anti-microbial surfaces', 'Pre-routed concealed operatory conduits', 'Calming ambiance reducing patient anxiety']
+  },
+  {
+    id: 'testi-5',
+    name: 'Dhruba Saha',
+    role: 'Homeowner',
+    category: 'residential',
+    categoryLabel: 'Residential',
+    project: 'Luxury 3 BHK Flat',
+    location: 'Chembur, Mumbai',
+    rating: 5,
+    avatar: 'https://kannvas.in/wp-content/uploads/2026/02/men1.png',
+    projectImage: 'https://kannvas.in/wp-content/uploads/2026/02/living-1.jpg',
+    projectTitle: '3 BHK Vishwa Bhuvan',
+    quote: 'Kannvas did a fabulous job in doing my place. What I liked the most about them is that they gave what they promised. To start with Pinky had great team dynamics. They also provided ideas which not only enhanced the beauty of the room but the ideas they provided were also very practical from an everyday life perspective.',
+    highlights: ['Practical storage maximizing usable carpet area', 'Transparent pricing matching promised estimates', 'Superb on-site contractor coordination']
+  },
+  {
+    id: 'testi-6',
+    name: 'Pramod Nimkar',
+    role: 'Managing Partner',
+    category: 'commercial',
+    categoryLabel: 'Commercial',
+    project: 'Corporate Office Fitout',
+    location: 'Mumbai, Maharashtra',
+    rating: 5,
+    avatar: 'https://kannvas.in/wp-content/uploads/2026/02/men1.png',
+    projectImage: 'https://kannvas.in/wp-content/uploads/2026/02/commercial-1.jpg',
+    projectTitle: 'Corporate Financial Office',
+    quote: 'Great Designs with good colour combination. Easy to work and understand requirement of customer very well. Take suggestions from any person and try to incorporate into design. On time completion of work with clean and neat office. Hard worker and silent performer.',
+    highlights: ['On-time turnkey handover', 'Clean and orderly construction practices', 'Exceptional color palettes and lighting']
+  },
+  {
+    id: 'testi-7',
+    name: 'Richa Samant',
+    role: 'Design Enthusiast',
+    category: 'residential',
+    categoryLabel: 'Residential',
+    project: 'Luxury Residence Styling',
+    location: 'Borivali, Mumbai',
+    rating: 5,
+    avatar: 'https://kannvas.in/wp-content/uploads/2026/02/female1.png',
+    projectImage: 'https://kannvas.in/wp-content/uploads/2026/02/Entry-Views-no-2.jpg',
+    projectTitle: '4 BHK Aquaria Grande',
+    quote: 'I was assisting my friend in doing up his place up with the assistance of Pinky. I have seen them implement the idea and they were very professional in their approach. Eye for detail is something that Kannvas is all about 🙂 Fab job guys!! Cheers!!!',
+    highlights: ['Meticulous attention to micro-details', 'Flawless translation from 3D design to reality', 'High professionalism across site personnel']
+  },
+  {
+    id: 'testi-8',
+    name: 'Kunal Lohana',
+    role: 'Client & Investor',
+    category: 'healthcare',
+    categoryLabel: 'Commercial & Clinic',
+    project: 'Turnkey Architectural Fitout',
+    location: 'Mumbai, Maharashtra',
+    rating: 5,
+    avatar: 'https://kannvas.in/wp-content/uploads/2026/02/men1.png',
+    projectImage: 'https://kannvas.in/wp-content/uploads/2026/06/1.Living-and-dining.jpg',
+    projectTitle: 'Turnkey Jodi Flat Fitout',
+    quote: 'A really overwhelming experience with the quality and timely delivery of work. KANNVAS is synonymous with reliability and architectural integrity.',
+    highlights: ['Strict deadline adherence', 'Premium European hardware and joinery', 'Responsive post-handover support']
+  }
+];
+
+export const TESTIMONIAL_STATS = [
+  { value: '170+', label: 'Completed Spaces', sub: 'Across Mumbai & India' },
+  { value: '100%', label: 'Happy Clients', sub: 'Verified Client Feedback' },
+  { value: '16+', label: 'Years Experience', sub: 'Mastery in Interior & Architecture' },
+  { value: '4.9/5', label: 'Client Rating', sub: 'Across Google Reviews' }
+];
+

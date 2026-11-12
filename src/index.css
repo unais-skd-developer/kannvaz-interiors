@@ -1,0 +1,204 @@
+@import "tailwindcss";
+
+@layer base {
+  * {
+    box-sizing: border-box;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+    background-color: #0A0A0B;
+  }
+
+  body {
+    background-color: #0A0A0B;
+    color: #7A7A7A;
+    font-family: 'Raleway', sans-serif;
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Titillium Web', sans-serif;
+    color: #1A1A1A;
+  }
+}
+
+/* Theratio signature architectural button with offset lines */
+.octf-btn,
+.octf-btn-light,
+.octf-btn-dark {
+  position: relative;
+  display: inline-block;
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 1.43;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  padding: 18px 42px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  border: 1px solid transparent;
+  outline: none;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.octf-btn:before,
+.octf-btn-light:before,
+.octf-btn-dark:before {
+  content: "";
+  position: absolute;
+  width: calc(100% + 2px);
+  height: 1px;
+  bottom: -6px;
+  left: 10px;
+  transition: all 0.3s ease;
+  pointer-events: none;
+}
+
+.octf-btn:after,
+.octf-btn-light:after,
+.octf-btn-dark:after {
+  content: "";
+  position: absolute;
+  width: 1px;
+  height: calc(100% + 2px);
+  top: 10px;
+  right: -6px;
+  transition: all 0.3s ease;
+  pointer-events: none;
+}
+
+.octf-btn:hover:before,
+.octf-btn:focus:before,
+.octf-btn-light:hover:before,
+.octf-btn-light:focus:before,
+.octf-btn-dark:hover:before,
+.octf-btn-dark:focus:before {
+  width: 0;
+}
+
+.octf-btn:hover:after,
+.octf-btn:focus:after,
+.octf-btn-light:hover:after,
+.octf-btn-light:focus:after,
+.octf-btn-dark:hover:after,
+.octf-btn-dark:focus:after {
+  height: 0;
+}
+
+/* Light button (White box with white offset lines) - used on dark backgrounds */
+.octf-btn-light {
+  background-color: #ffffff;
+  color: #1a1a1a;
+}
+.octf-btn-light:before,
+.octf-btn-light:after {
+  background-color: #ffffff;
+}
+.octf-btn-light:hover,
+.octf-btn-light:focus {
+  background-color: #1a1a1a;
+  color: #ffffff;
+  border-color: #ffffff;
+}
+
+/* Dark button (Dark box with dark offset lines) - used on light/white backgrounds */
+.octf-btn-dark {
+  background-color: #1a1a1a;
+  color: #ffffff;
+}
+.octf-btn-dark:before,
+.octf-btn-dark:after {
+  background-color: #1a1a1a;
+}
+.octf-btn-dark:hover,
+.octf-btn-dark:focus {
+  background-color: transparent;
+  color: #1a1a1a;
+  border-color: #1a1a1a;
+}
+
+/* Custom scrollbar matching original theme */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #1a1a1a;
+}
+::-webkit-scrollbar-thumb {
+  background: #333333;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #b07c5e;
+}
+
+/* Minimal Architectural Header Animations */
+@keyframes archFadeUp {
+  0% {
+    opacity: 0;
+    transform: translateY(16px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes archTagReveal {
+  0% {
+    opacity: 0;
+    letter-spacing: 0.1em;
+    transform: translateY(6px);
+  }
+  100% {
+    opacity: 1;
+    letter-spacing: 0.25em;
+    transform: translateY(0);
+  }
+}
+
+@keyframes archLineExpand {
+  0% {
+    transform: scaleX(0);
+    opacity: 0;
+  }
+  100% {
+    transform: scaleX(1);
+    opacity: 1;
+  }
+}
+
+@keyframes archFadeSubtle {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.anim-header-tag {
+  animation: archTagReveal 0.75s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+.anim-header-title {
+  animation: archFadeUp 0.8s cubic-bezier(0.16, 1, 0.3, 1) 0.1s both;
+}
+
+.anim-header-line {
+  transform-origin: left;
+  animation: archLineExpand 0.85s cubic-bezier(0.16, 1, 0.3, 1) 0.2s both;
+}
+
+.anim-header-line-center {
+  transform-origin: center;
+  animation: archLineExpand 0.85s cubic-bezier(0.16, 1, 0.3, 1) 0.2s both;
+}
+
+.anim-header-sub {
+  animation: archFadeSubtle 0.85s cubic-bezier(0.16, 1, 0.3, 1) 0.25s both;
+}
+
