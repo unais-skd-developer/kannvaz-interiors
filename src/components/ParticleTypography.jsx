@@ -71,8 +71,8 @@ class Particle {
 export default function ParticleTypography({
   text = 'Spaces Crafted\nBeautifully',
   fontSize = 100,
-  fontFamily = '"Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif',
-  fontWeight = '800',
+  fontFamily = "'Titillium Web', sans-serif",
+  fontWeight = '700',
   particleSize = 1.6,
   particleDensity = 3.2,
   dispersionStrength = 18,
